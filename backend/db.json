@@ -1,0 +1,14 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Isaac Correia",
+      "email": "isaac.correia.2406@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "Caroline Amarante",
+      "email": "caroline.meuamore@gmail.com"
+    }
+  ]
+}
