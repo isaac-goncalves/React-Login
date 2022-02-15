@@ -36,7 +36,11 @@ export default class UserCrud extends Component {
                 this.setState({user: initialState.user, list})
             })
     }
-    getUpdateList( )
+    getUpdateList(user) {
+        const list = this.state.list.filter(u = u.id !==user.id)
+        list.unshift(user)
+        return list
+    }
 
     render() {
         return (

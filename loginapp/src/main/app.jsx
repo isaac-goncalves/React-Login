@@ -8,10 +8,6 @@ import Footer from "../components/templates/Footer"
 import Routes from "../main/Routes"
 import { BrowserRouter } from "react-router-dom";
 
-
-
-
-
 export default props =>
     <BrowserRouter>
         <div className="app">
