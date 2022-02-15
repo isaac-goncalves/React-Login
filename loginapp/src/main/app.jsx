@@ -9,8 +9,10 @@ import Main from "../components/templates/Main"
 
 export default props => 
     <div className="app">
-        <Logo />
+        <Logo/>
         <Nav/>
-        <Main icon="home" title="Início" subtitle="Segundo Projeto do capitulo de React."/>
+        <Main icon="home" title="Início" subtitle="Segundo Projeto do capitulo de React.">
+        <div className="display-4">Bem Vindo!</div>
+        </Main>
        <Footer />
     </div>

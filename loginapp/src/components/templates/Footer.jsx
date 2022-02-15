@@ -1,7 +1,10 @@
-import React from "react"
-import "./Footer.css"
+import './Footer.css'
+import React from 'react'
 
-export default props => 
+export default props =>
     <footer className="footer">
-        footer
+        <span>
+            Desenvolvido com <i className="fa fa-heart text-danger"></i> por
+            <strong> Isaac</strong>
+        </span>
     </footer>
