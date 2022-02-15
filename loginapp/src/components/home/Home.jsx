@@ -1,20 +1,11 @@
-import React, { Component } from 'react'
+import React from 'react'
 import Main from '../templates/Main'
 
-const headerProps = {
-    icon: 'users',
-    title: 'Usuários',
-    subtitle: 'Cadastro deu usuparios: Incluir, Listar, Alterar e Excluir'
-}
-
-export default class UserCrud extends Component {
-    render () {
-        return (
-            <Main {...headerProps}>
-            Cadastro de Usuários   
-            </Main> 
-        )
-    }
-}
-
- 
+export default props =>
+    <Main icon="home" title="Início"
+        subtitle="Segundo Projeto do capítulo de React.">
+        <div className='display-4'> Bem Vindo!</div>
+        <hr/>
+        <p className="mb-0">Sistema para exemplificar a construção
+            de um cadastro desenvolvido em React!</p>
+    </Main>

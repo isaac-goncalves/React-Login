@@ -5,14 +5,19 @@ import 'font-awesome/css/font-awesome.min.css'
 import Logo from "../components/templates/Logo"
 import Nav from "../components/templates/Nav"
 import Footer from "../components/templates/Footer"
-import Main from "../components/templates/Main"
+import Routes from "../main/Routes"
+import { BrowserRouter } from "react-router-dom";
 
-export default props => 
-    <div className="app">
-        <Logo/>
-        <Nav/>
-        <Main icon="home" title="Início" subtitle="Segundo Projeto do capitulo de React.">
-        <div className="display-4">Bem Vindo!</div>
-        </Main>
-       <Footer />
-    </div>
+
+
+
+
+export default props =>
+    <BrowserRouter>
+        <div className="app">
+            <Logo />
+            <Nav />
+            <Routes />
+            <Footer />
+        </div>
+    </BrowserRouter>
